@@ -20,15 +20,45 @@ header{
 .title h1{
   font-size: 45px;
   font-family: 'Gupter', serif;
-}
-#blu{
-  color: #2CADE6;
+  margin-top: 10px;
 }
 
 .autore{
   color: rgba(128,128,128,0.5);
+ 
+}
+
+#blu{
+  color: #2CADE6;
 }
 
 .image p{
    font-size: 0.8em;
+}
+
+.information, .information ul, .information table, .information p{
+  margin-top: 40px;
+  }
+  
+.information p span{
+  background-color: yellow;
+}
+
+thead{
+  width: 100%;
+  background-color: #4EA0FF;
+  color: white;
+}
+
+.colore{
+  background-color: #2CADE6;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+footer section img{
+  display: block;
+  margin-top: 10px;
 }
