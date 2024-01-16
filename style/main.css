@@ -1,7 +1,7 @@
 *{
   margin: 0px;
 }
-
+/* HEADER */
 header{
   background-image: url(../img/pattern.png);
   width: 100%;
@@ -17,6 +17,10 @@ header{
  
 }
 
+/* /HEADER */
+
+/* MAIN  */
+
 .title h1{
   font-size: 45px;
   font-family: 'Gupter', serif;
@@ -25,7 +29,7 @@ header{
 
 .autore{
   color: rgba(128,128,128,0.5);
- 
+  
 }
 
 #blu{
@@ -33,32 +37,59 @@ header{
 }
 
 .image p{
-   font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .information, .information ul, .information table, .information p{
   margin-top: 40px;
-  }
-  
+}
+
 .information p span{
   background-color: yellow;
+}
+
+table{
+  border-collapse: collapse;
 }
 
 thead{
   width: 100%;
   background-color: #4EA0FF;
   color: white;
+  text-align: left;
+}
+
+table .text{
+  width: 50%;
 }
 
 .colore{
   background-color: #2CADE6;
 }
+/* MAIN  */
 
+
+/* FOOTER */
 footer{
   margin-top: 30px;
 }
+.box-image{
+   width: 300px;
+   height: 200px;
+   
+}
 
-footer section img{
-  display: block;
+#monitor{
+  background-image: url(../img/monitor.jpg);
+
+}
+
+#tastiera{
+  background-image: url(../img/graph.jpg);
   margin-top: 10px;
 }
+.box-image h3{
+  color: gray;
+}
+
+/* /FOOTER */
